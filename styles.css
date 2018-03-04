@@ -1,5 +1,7 @@
 h1 { font-family: 'Roboto', sans-serif;
-    color: blue; 
+    color: blue;
 }
-
+.jumbotron{
+    background-color:#8A2BE2;
+  }
 h2 { }
