@@ -1,14 +1,29 @@
 
-.btn-twitter {
-  background: #00acee;
-  border-color: #009ad5
-}
-#Change and resources {
-  font-family: arial;
-  color: grey;
-}
+.img-responsive img-circle {
+  width: 100% \9;
 
 
-label {
-  font-size: 50px;
+.overlay {
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  top: 0;
+  transition: opacity 0.25s;
+  z-index: 1;
+}
+
+.overlay:hover {
+  opacity:1
+}
+
+.overlay {
+  background-color: rgba(46,204,113,0.4);
+ background: linear-gradient(65deg, rgba(46,204,113,0.4), rgba(243,156,18,0.4));
+ color: white;
+  font-size: 20px;
 }
