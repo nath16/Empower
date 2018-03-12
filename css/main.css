@@ -30,6 +30,11 @@
  color: white;
   font-size: 20px;
 }
+}
+
+blockquote {
+  border: 0px;
+}
 
 .trademark {
   text-align: left;
