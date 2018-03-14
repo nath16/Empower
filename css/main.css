@@ -36,6 +36,15 @@ blockquote {
   border: 0px;
 }
 
-.trademark {
-  text-align: left;
+
+footer {
+  margin-left: 10px;
+}
+
+.form-group {
+  align-items: right;
+}
+
+#social-buttons {
+  margin-left: 10px;
 }
