@@ -38,6 +38,7 @@
             <span class="icon-bar"></span>
             <span class= "glyphicon glyphicon-search"></span></a>
           </li>
+
         </ul>
         </div>
       </div>
@@ -60,7 +61,19 @@
       <form role="form">
         <label for="email">Share your story</label></br>
         <input type="text" name="email">
-        <button type="submit">@Empower</button>
+        <button id="submit" type="submit">@Empower</button>
+
+        <p id="demo"></p>
+
+        <script>
+        document.getElementById("submit").addEventListener("click", function(){
+            document.getElementById("demo").innerHTML = "Hello Empowered woman";
+
+        });
+        </script>
+
+
+
       </form>
 
     </div>
